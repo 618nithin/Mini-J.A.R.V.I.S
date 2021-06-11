@@ -59,12 +59,12 @@ IFTTT derives its name from the programming conditional statement “if this, th
 
 <p float="left">
   <img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Applet%201%20Part%201.jpg" width="255" height="374" />
-  <img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Applet%201%20Part%202.jpg" width="255" height="374" /> 
+  <img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Applet%201%20Part%202.0.jpg" width="255" height="374" /> 
 </p>
 
 - #### Creating IFTTT Applet to turn off the light
 <p float="left">
   <img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Applet%202%20Part%201.jpg" width="255" height="374"/>
-  <img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Applet%202%20Part%202.jpg" width="255" height="374"/> 
+  <img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Applet%202%20Part%202.0.jpg" width="255" height="374"/> 
 </p>
 
