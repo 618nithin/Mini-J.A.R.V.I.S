@@ -18,22 +18,25 @@
 * Android device (Wi-Fi enabled)
 
 ## Component Description
-<img align="right" width="250" height="175"   src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Arduino-Uno-R3.jpg"> 
+<img align="right" width="200" height="140"   src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Arduino-Uno-R3.jpg"> 
 
-- #### Arduino UNO
-   Arduino Uno is a microcontroller board based on the ATmega328P (datasheet). It has 14 digital input/output
+   - **Arduino UNO**  
+   Arduino Uno is a microcontroller board based on the ATmega328P. It has 14 digital input/output
    pins (of which 6 can be used as PWM outputs), 6 analog inputs, a 16 MHz ceramic resonator (CSTCE16M0V53-R0),
-   a USB connection, a power jack, an ICSP header and a reset button.  
+   a USB connection, a power jack, an ICSP header and a reset button. The open-source Arduino Software (IDE) makes 
+   it easy to write code and upload it to the Arduino Uno board. It runs on Windows, Mac OS X, and Linux. 
    
-   
-   
-   
-     
-- #### ESP8266 Wi-Fi Module
-<img align="right" width="225" height="162.5"   src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/ESP8266-Pinout.png">
+ 
+   - **ESP8266 Wi-Fi Module**  
+    <img align="left" width="200" height="144.444"   src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/ESP8266-Pinout.png">
     The ESP8266 WiFi Module is a self contained SOC with integrated TCP/IP protocol stack that can give any microcontroller
     access to your WiFi network. The ESP8266 is capable of either hosting an application or offloading all WiFi networking 
-   functions from another application processor.
+    functions from another application processor. Each ESP8266 module comes pre-programmed with an AT command set firmware, meaning, 
+    we can simply hook this up to the Arduino device and get about as much WiFi-ability as a WiFi Shield offers.  The ESP8266 module is
+    an extremely cost effective board with a huge, and ever growing, community. 
 
+   - **5V Relay Module**  
+      <img align="right" width="200" height="140"   src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/1-Channel-5V-Relay-Module-for-Arduino-with-Optocoupler.jpg">
+      5V Relay Module is a relay interface board, it can be controlled directly by a wide range of microcontrollers such as Arduino, AVR, PIC, ARM and so on. It uses a low         level triggered control signal (3.3-5VDC) to control the relay. Triggering the relay operates the normally open or normally closed contacts. It is frequently used in         an automatic control circuit. To put it simply, it is an automatic switch to control a high-current circuit with a low-current signal.  
 ## Circuit Diagram
 <img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Mini%20J.A.R.V.I.S%20Circuit%20diagram.jpg" width="800">
