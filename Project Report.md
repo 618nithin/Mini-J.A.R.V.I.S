@@ -39,4 +39,32 @@
       <img align="right" width="200" height="140"   src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/1-Channel-5V-Relay-Module-for-Arduino-with-Optocoupler.jpg">
       5V Relay Module is a relay interface board, it can be controlled directly by a wide range of microcontrollers such as Arduino, AVR, PIC, ARM and so on. It uses a low         level triggered control signal (3.3-5VDC) to control the relay. Triggering the relay operates the normally open or normally closed contacts. It is frequently used in         an automatic control circuit. To put it simply, it is an automatic switch to control a high-current circuit with a low-current signal.  
 ## Circuit Diagram
-<img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Mini%20J.A.R.V.I.S%20Circuit%20diagram.jpg" width="800">
+<img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Mini%20J.A.R.V.I.S%20Circuit%20diagram.jpg" width="800">  
+
+## ThingSpeak
+ThingSpeak is an IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud. You can send data to ThingSpeak™ from your devices, create instant visualizations of live data, and send alerts using web services like Twitter® and Twilio®. ThingSpeak enables engineers and scientists to prototype and build IoT systems without setting up servers or developing web software.
+
+- Create a new channel in the thingSpeak platform as shown in the figure below
+- Enter the Channel ID and Read API Keys of the new channel in the [given code](https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Code_Mini_J.A.R.V.I.S.ino) 
+- Enter the Wi-Fi Network SSID(name) and Wi-Fi network password in the code
+- Verify and upload the code to the Arduino Uno R3 using the Arduino IDE
+<img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/ThingSpeak%20server.jpg" width="800">  
+
+## IFTTT
+IFTTT derives its name from the programming conditional statement “if this, then that.” It is a software platform that connects apps, devices and services from different developers in order to trigger one or more automations involving those apps, devices and services. The automations are accomplished via applets which connect multiple apps to run automated tasks. Applet can be turned on/off using IFTTT’s website or mobile apps . We can also create oour own applets or make variations of existing ones via IFTTT’s user-friendly, straightforward interface. 
+ 
+-Setup the applets which invokes a webrequest to the ThingSpeak server through WebHooks whenever a particular phrase(Eg : Turning on/off the light) is conveyed through the  google voice assistant  
+
+- #### Creating IFTTT Applet to turn on the light 
+
+<p float="left">
+  <img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Applet%201%20Part%201.jpg" width="255" height="374" />
+  <img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Applet%201%20Part%202.jpg" width="255" height="374" /> 
+</p>
+
+- #### Creating IFTTT Applet to turn off the light
+<p float="left">
+  <img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Applet%202%20Part%201.jpg" width="255" height="374"/>
+  <img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Applet%202%20Part%202.jpg" width="255" height="374"/> 
+</p>
+
