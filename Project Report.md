@@ -44,20 +44,24 @@ Home automation system achieved great popularity in the last decades as it incre
 ## CIRCUIT DIAGRAM
 <img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Mini%20J.A.R.V.I.S%20Circuit%20diagram.jpg" width="800">  
 
+## CIRCUIT CONNECTIONS
+Fritzing is an open-source hardware initiative that makes electronics accessible as a creative material for anyone. They offer a software tool, a community website and services in the spirit of Processing and Arduino, fostering a creative ecosystem that allows users to document their prototypes, share them with others, teach electronics in a classroom, and layout and manufacture professional pcbs.
+One can go through this [Fritzing file](https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Circuit%20Connections.fzz) which depicts all the circuit connections in detail. 
+
 ## THINGSPEAK PLATFORM
 ThingSpeak is an IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud. You can send data to ThingSpeak™ from your devices, create instant visualizations of live data, and send alerts using web services like Twitter® and Twilio®. ThingSpeak enables engineers and scientists to prototype and build IoT systems without setting up servers or developing web software.
 
 ## UPLOADING THE CODE TO THE ARDUINO
 - Create a new channel in the thingSpeak platform as shown in the figure below
 - Enter the Channel ID and Read API Keys of the new channel in the [given code](https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Code_Mini_J.A.R.V.I.S.ino) 
-- Enter the Wi-Fi Network SSID(name) and Wi-Fi network password in the code
+- Enter the Home Wi-Fi Network SSID(name) and password in the code.
 - Connect the Arduino Uno R3 through the USB port on the computer, open the Arduino IDE and upload the code.
 <img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/ThingSpeak%20server.jpg" width="800">  
 
 ## IFTTT PLATFORM
 IFTTT derives its name from the programming conditional statement “if this, then that.” It is a software platform that connects apps, devices and services from different developers in order to trigger one or more automations involving those apps, devices and services. The automations are accomplished via applets which connect multiple apps to run automated tasks. Applet can be turned on/off using IFTTT’s website or mobile apps . We can also create our own applets or make variations of existing ones via IFTTT’s user-friendly, straightforward interface. 
  
--Setup the applets which invokes a webrequest to the ThingSpeak server through WebHooks whenever a particular phrase(Eg : Turning on/off the light) is conveyed through the  google voice assistant  
+- Setup the applets which invokes a webrequest to the ThingSpeak server through WebHooks whenever a particular command(Eg : Turning on/off the light) is conveyed through the  google voice assistant  
 
 - #### Creating IFTTT Applet to turn on the light 
 
@@ -76,11 +80,11 @@ IFTTT derives its name from the programming conditional statement “if this, th
 Now that we have setup the hardware and software successfully, the next step is to control the entire setup from an android device. In order to do that, download IFTTT app from playstore and login into your account. Just say  “Ok Google, Turn on the light” from anywhere in the world, this should result in the light bulb glowing.
 
 ## EMPIRICAL RESULTS
-The project was completed and is working as described in this paper. The system allows the users to control appliances in their home from an android device through the home Wi-Fi network. The project turned out to be a very flexible and low cost solution for the basic switching control needs of a home automation system. The interface design is completely user friendly.
+The project was completed and is working as described above. The system allows the users to control appliances in their home from an android device through the home Wi-Fi network. The project turned out to be a very flexible and low cost solution for the basic switching control needs of a home automation system. The interface design is completely user friendly.
       The device works fairly good in terms of security as well. Since, the device works under the home Wi-Fi network, it automatically adheres to all the security configurations implemented on the home Wi-Fi network. IFTTT uses standard web-encryption methods to securely transfer data between the device and its servers. Access to the private data of the user and apps of ThingSpeak platform is protected by API keys that the user may reset at any time. So only the authorized device can be used to control the appliances. 
 
 ## CONCLUSION AND FUTURE WORK 
-In this project, an architecture for low cost and flexible home automation system using Arduino is proposed and implemented. The home appliances are controlled by smartphones. Such a design transforms a mobile phone into a portable remote controller for home automation. It is noted that the proposed system is not restricted to home automation, it can be applied directly to remotely control any industrial device. Using this system as framework, the system can be expanded to include various other options which could include home security feature. Home automation systems can connect motion detectors, surveillance cameras, automated door locks, and other tangible security measures throughout your home so you can activate them from one mobile device before heading to bed. You can also choose to receive security alerts on your various devices depending on the time of day an alert goes off, and monitor activities in real-time whether you’re in the house or halfway around the globe.
+In this project, an architecture for low cost and flexible home automation system using Arduino is proposed and implemented. The home appliances are controlled by smartphones. Such a design transforms a mobile phone into a portable remote controller for home automation. It is noted that the proposed system is not restricted to home automation, it can be applied directly to remotely control any industrial device. Using this system as framework, the system can be expanded to include various other options which could include home security feature. Home automation systems can connect motion detectors, surveillance cameras, automated door locks, and other tangible security measures throughout the home so one can activate them from a mobile device before heading to bed. One can also choose to receive security alerts on various devices depending on the time of day an alert goes off, and monitor activities in real-time whether you’re in the house or halfway around the globe.
  
 
 
