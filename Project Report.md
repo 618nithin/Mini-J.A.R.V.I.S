@@ -48,6 +48,12 @@ Home automation system achieved great popularity in the last decades as it incre
 Fritzing is an open-source hardware initiative that makes electronics accessible as a creative material for anyone. They offer a software tool, a community website and services in the spirit of Processing and Arduino, fostering a creative ecosystem that allows users to document their prototypes, share them with others, teach electronics in a classroom, and layout and manufacture professional pcbs.
 One can go through this [Fritzing file](https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Circuit%20Connections.fzz) which depicts all the circuit connections in detail. 
 
+## PROJECT IMAGES
+<img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Project%20Image%201.jpg" width="800">  
+<img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Project%20Image%202.jpg" width="800">  
+<img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Project%20Image%203.jpg" width="800">  
+<img src="https://github.com/618nithin/Mini-J.A.R.V.I.S/blob/main/Images/Project%20Image%204.jpg" width="800">  
+
 ## THINGSPEAK PLATFORM
 ThingSpeak is an IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud. You can send data to ThingSpeak™ from your devices, create instant visualizations of live data, and send alerts using web services like Twitter® and Twilio®. ThingSpeak enables engineers and scientists to prototype and build IoT systems without setting up servers or developing web software.
 
